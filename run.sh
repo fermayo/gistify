@@ -1,4 +1,6 @@
 #!/bin/sh
+set -e
+
 CONTENT=$(cat - | python -c 'import json,sys; print json.dumps(sys.stdin.read())')
 cat <<EOF > data.txt
 {
