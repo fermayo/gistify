@@ -1,5 +1,7 @@
 # fermayo/gistify
 
+**Deprecated**. GitHub [no longer accepts anonymous gists](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/).
+
 Creates a GitHub Gist from standard input.
 
 Example:
